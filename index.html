@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>community1</title>
+    <link rel="stylesheet" href="css/sub4.css">
+<link rel="stylesheet" href="js/script.js">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--aos css 연결-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--aos js 연결-->
+</head>
+<body>
+    <div id="main_banner">
+      <h1 data-aos="fade-down" data-aos-duration="1000">COMMUNITY</h1>
+    <header>
+        <div id="header_inner">
+            <div class="logo"><a href="#"><img src="images/main_logo.png" alt="메인로고"></a></div>
+            <div class="nav">
+                <ul>
+                   <li class="menu"><a href="#">BRAND STORY</a>
+                </li>
+                   <li class="menu"><a href="#">PRODUCTS</a>
+                <ul class="sub">
+                    <li><a href="#">방부목</a></li>
+                    <li><a href="#">산업재</a></li>
+                    <li><a href="#">천연데크</a></li>
+                    <li><a href="#">구조재</a></li>
+                    <li><a href="#">사이딩</a></li>
+                    <li><a href="#">루바</a></li>
+                    <li><a href="#">집성재</a></li>
+                    <li><a href="#">합판</a></li>
+                    <li class="btn"><a href="#">소할재</a></li>
+                </ul>
+                </li>
+                    <li class="menu"><a href="#">TECHNOLOGY</a>
+                    </li>
+                    <li class="menu"><a href="#">COMMUNITY</a>
+                    <ul class="sub">
+                        <li><a href="#">견적문의</a></li>
+                        <li class="btn"><a href="#">공지사항</a></li>
+                    </ul></li> 
+                </ul>
+            </div><!--nav E-->
+        </div><!--header_inner E-->
+    </header>
+</div><!--main_banner E-->
+
+<div class="form">
+    <div class="form_in">
+        <h1>견적문의</h1>
+        <form class="gform" method="post" data-email="alpswood00@gmail.com" action="https://script.google.com/macros/s/AKfycbxlEkQnetUSAJ8cATeYQY8ATHBJfYl6yOvpkiExxQ/exec">
+            <p class="box1">
+                <span class="title1">회사명</span> <input class="in1" type="text" name="name" style="font-size:16px">
+            </p>
+            <p class="box2">
+                <span class="title2">담장자명</span> <input class="in2" type="text" name="sub_name" style="font-size:16px">
+            </p>
+            <p class="box3">
+                <span class="title3">연락처</span> <input class="in3" type="text" name="number" style="font-size:16px"> <input class="in3" type="text" name="number" style="font-size:16px"> <input class="in3" type="text" name="number" style="font-size:16px">
+            </p>
+            <p class="box4">
+                <span class="title4">이메일</span> <input class="in4" type="text" name="email" style="font-size:16px">
+            </p>
+            <p class="box5">
+                <span class="title5">제목</span> <input class="in5" type="text" name="title" style="font-size:16px">
+            </p>
+        <p class="box6">
+            <span class="title8">문의내용</span>
+         </p>
+    <p class="box7">
+        <span class="title9"><textarea name="sub_text" cols="107" rows="10"></textarea></span>
+    </p>
+        <p class="submit">
+            <input class="submit_text" type="submit" value="문의하기" style="font-size:16px">
+        </p>
+        </form>
+    </div><!--form_in E-->
+</div><!--form E-->
+
+<div class="footer">
+    <div class="footer_in">
+        <div class="footer_logo"><a href="#none"><img src="images/footer_logo.png" alt="푸터로고"></a></div>
+        <div class="footer_t">
+
+                <p><span class="bold2">본사 및 공장:</span> 경남 밀양시 삼랑진읍 사기점길 33&emsp;
+                    <span class="bold2">Tel:</span> 055-716-0388&emsp;<span class="bold2">Fax:</span> 055-716-0389</p>
+                <p><span class="bold2">한림공장:</span> 경남 김해시 한림면 퇴래리 254-2
+                &emsp;<span class="bold2">Tel:</span> 055-328-1414&emsp;
+                <span class="bold2">Fax:</span> 055-343-2114</p>
+                <p><span class="bold2">흥동 판매 직영점:</span> 경남 김해시 흥동 39-5&emsp;
+                <span class="bold2">Tel:</span> 055-328-1020&emsp;
+                <span class="bold2">Fax:</span> 055-328-2223</p>
+                <p class="reserved">© 2022 SEOIL TIMBER CO.,LTD. ALL RIGHTS RESERVED.</p>
+        </div><!--footer_t E-->
+    </div><!--footer_in E-->
+</div><!--footer E-->
+    
+<!--top btn-->
+<div class="fixed_box">
+    <a href="#main_banner"><img src="images/top.png" alt="up"></a>
+</div><!--fixed_box-->
+
+<script>
+    AOS.init();
+
+    $(function() {
+				$('a[href*="#"]:not([href="#"])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if (target.length) {
+				$('html, body').animate({
+				scrollTop: target.offset().top
+				}, 500);//움직이는 시간 조정
+				return false;
+				}
+				}
+				});
+				});
+
+</script>
+
+
+</body>
+</html>
