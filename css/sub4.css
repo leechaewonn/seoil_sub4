@@ -449,7 +449,7 @@ header ul li{
         margin: 0 auto;
     }
     .form_in{
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
   
@@ -508,12 +508,6 @@ header ul li{
     }
 }
 @media(max-width:576px){
-    .in5{
-    width: 50%;
-    }
-    .in6{
-    width: 50%;
-    }
     .form_in{
         font-size: 14px;
     }
@@ -541,8 +535,12 @@ header ul li{
   @media(max-width:488px){
     
     .in1, .in2, .in3, .in4, .in5, .in6{
-        height: 25px;
+        height: 30px;
     }
+    .in3{
+        width: 20%;
+    }
+
   }
    @media(max-width:419px){
       .logo4{
@@ -551,24 +549,10 @@ header ul li{
       .logo3{
             display: none;
        }
-   }
-
-   @media(max-width:488px){
-    
-    .in1, .in2, .in3, .in4, .in5, .in6{
-        height: 18px;
     }
-    .form_in{
-        font-size: 11px;
-    }
-    .form_in h1{
-        font-size: 20px;
-    }
-
-  }
   @media(max-width:376px){
     .in1, .in2, .in3, .in4, .in5, .in6{
-        height: 18px;
+        height: 22px;
     }
     .in4{
         width: 60%;
